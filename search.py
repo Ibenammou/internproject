@@ -18,8 +18,8 @@ cap.set(4, 480)  # Set frame height
 # Load the pre-trained Keras model
 model = load_model('keras_Model.h5', compile=False)
 
-# Directory structure for patient images
-base_directory = r'C:\Users\Windownet\Downloads\chu_project'
+# Updated directory structure for patient images
+base_directory = r'C:\Users\Windownet\Desktop\database'
 
 # Function to load patient images from the database folder
 def load_patient_images(base_directory):
@@ -54,6 +54,11 @@ def load_patient_images(base_directory):
                                                 'image_path': img_path
                                             })
     return patient_images, patient_info
+
+# Check if base directory exists
+if not os.path.exists(base_directory):
+    print(f"Directory not found: {base_directory}")
+    exit(1)
 
 # Load all patient images and their info
 patient_images, patient_info = load_patient_images(base_directory)
