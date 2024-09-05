@@ -9,6 +9,7 @@ Ce projet vise à développer un système de reconnaissance faciale capable d'id
 - **Reconnaissance Faciale** : Utilisation d'un modèle Keras pour identifier les patients en temps réel.
 ![Reconnaissance Faciale](https://github.com/Ibenammou/internproject/blob/master/image1.jpg)
 - **Notification au Médecin** : Envoi automatique d'un message WhatsApp au médecin concerné pour confirmer l'entrée du patient ou le temps d'attente.
+![Notification au Médecin](https://github.com/Ibenammou/internproject/blob/master/image%202.jpg)
 - **Intégration de la Caméra** : Capture des images en direct via la caméra pour la reconnaissance faciale.
 
 ## Prérequis
