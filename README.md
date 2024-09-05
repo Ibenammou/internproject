@@ -10,8 +10,9 @@ Ce projet vise à développer un système de reconnaissance faciale capable d'id
 ![Reconnaissance Faciale](https://github.com/Ibenammou/internproject/blob/master/image1.jpg)
 - **Notification au Médecin** : Envoi automatique d'un message WhatsApp au médecin concerné pour confirmer l'entrée du patient ou le temps d'attente.
 ![Notification au Médecin](https://github.com/Ibenammou/internproject/blob/master/image%202.jpg)
-- **Intégration de la Caméra** : Capture des images en direct via la caméra pour la reconnaissance faciale.\
-  #Les composants principaux de ce projet sont :
+- **Intégration de la Caméra** : Capture des images en direct via la caméra pour la reconnaissance faciale.
+  
+ ## Les composants principaux de ce projet sont :
  un Raspberry Pi 4, une carte électronique permettant d'intégrer le code avec les autres composants, une caméra Microsoft pour détecter les visages des patients, des résistances pour protéger la carte, une breadboard servant de support de travail, des fils de connexion reliant les différents composants, et un écran LCD pour afficher les messages.
 
 ## Prérequis
