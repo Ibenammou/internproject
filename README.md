@@ -26,3 +26,4 @@ Installez les bibliothèques nécessaires avec :
 
 ```bash
 pip install opencv-python keras numpy pywhatkit
+Les composants principaux de ce projet sont : un Raspberry Pi 4, une carte électronique permettant d'intégrer le code avec les autres composants, une caméra Microsoft pour détecter les visages des patients, des résistances pour protéger la carte, une breadboard servant de support de travail, des fils de connexion reliant les différents composants, et un écran LCD pour afficher les messages.
