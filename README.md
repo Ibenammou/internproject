@@ -13,7 +13,12 @@ Ce projet vise à développer un système de reconnaissance faciale capable d'id
 - **Intégration de la Caméra** : Capture des images en direct via la caméra pour la reconnaissance faciale.
   
  ## Les composants principaux de ce projet sont :
- un Raspberry Pi 4, une carte électronique permettant d'intégrer le code avec les autres composants, une caméra Microsoft pour détecter les visages des patients, des résistances pour protéger la carte, une breadboard servant de support de travail, des fils de connexion reliant les différents composants, et un écran LCD pour afficher les messages.
+ un Raspberry Pi 4: une carte électronique permettant d'intégrer le code avec les autres composants.
+ une caméra Microsoft: pour détecter les visages des patients.
+ des résistances: pour protéger la carte. 
+ une breadboard: servant de support de travail. 
+ des fils de connexion: reliant les différents composants.
+ un écran LCD: pour afficher les messages.
 
 ## Prérequis
 
